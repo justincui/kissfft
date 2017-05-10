@@ -31,6 +31,9 @@ AC_FUNC_ERROR_AT_LINE
 #AC_FUNC_MALLOC
 AC_HEADER_MAJOR
 #AC_FUNC_REALLOC
-AC_CHECK_FUNCS([floor memmove memset pow select sqrt strtol sin cos fabs])
+AC_CHECK_FUNCS([memmove memset select strtol])
+
+LDFLAGS="-lm"
+AC_CHECK_FUNCS([sincos atan2 floor sqrt])
 
 AC_OUTPUT(Makefile)

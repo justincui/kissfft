@@ -1,6 +1,10 @@
+*.o
+*.lo
 .project
 .cproject
 .deps/
+.libs/
+libkissfft.la
 Makefile
 Makefile.in
 aclocal.m4
