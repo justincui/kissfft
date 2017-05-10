@@ -1,4 +1,5 @@
 AUTOMAKE_OPTIONS=foreign
+ACLOCAL_AMFLAGS=-I m4
 AM_CPPFLAGS=-fsigned-char 
 AM_LDFLAGS=-lm
 lib_LTLIBRARIES=libkissfft.la

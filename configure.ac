@@ -4,6 +4,7 @@
 AC_PREREQ(2.69)
 AC_INIT(KISSFFT, 1.30, justin.cui@advantest.com)
 AM_INIT_AUTOMAKE()
+AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([kiss_fft.c])
 #AM_CONFIG_HEADERS([config.h])
 
