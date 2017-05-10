@@ -34,7 +34,8 @@ AC_HEADER_MAJOR
 #AC_FUNC_REALLOC
 AC_CHECK_FUNCS([memmove memset select strtol])
 
+AC_CHECK_LIB(m,sincos)
 LDFLAGS="-lm"
-AC_CHECK_FUNCS([sincos atan2 floor sqrt])
+AC_CHECK_FUNCS([atan2 floor sqrt])
 
 AC_OUTPUT(Makefile)
